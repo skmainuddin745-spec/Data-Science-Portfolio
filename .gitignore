@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environments
+venv/
+venv_old*/
+.venv/
+env/
+.conda/
+
+# Data (large)
+data/fastembed_cache/
+data/tts_cache/
+*.db
+*.sqlite
+
+# Secrets
+config.yaml
+.env
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
